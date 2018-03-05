@@ -1,0 +1,140 @@
+/*RWD 1200px - 922px - 768px -520px*/
+
+/*BIG SCREENS*/
+
+@media all and (max-width:1200px) {
+    #navbar #drop:checked + ul {
+        display: block;
+        background-color: #fff;
+    }
+
+    #navbar {
+        padding: 0;
+    }
+
+    #navbar.scrolled {
+        padding: 0;
+    }
+
+    #navbar .toggle {
+        display: block;
+        padding: 15px 20px 6px 20px;
+    }
+
+    #navbar ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: none;
+        text-align: left;
+    }
+
+    #navbar ul li {
+        display: block;
+        text-align: center;
+    }
+
+
+    #navbar h4 {
+        margin: 0;
+        padding: 15px 20px 13px 20px;
+    }
+
+
+    .feature-boxes {
+        display: block;
+    }
+
+    #about .about-inner {
+        display: block;
+        text-align: center;
+    }
+
+    #about .about-inner .about-text {
+        text-align: center;
+    }
+
+}
+
+/*MEDIUM SCREENS*/
+
+@media all and (max-width:922px) {}
+
+/*SMALL SCREENS*/
+
+@media all and (max-width:768px) {
+
+    #main-header {
+        padding: 100px 20px;
+    }
+
+    #main-header .header-image img {
+        width: 100%;
+    }
+
+    .header-text h2 {
+        font-size: 60px;
+    }
+
+    .header-text p {
+        font-size: 30px;
+    }
+
+    #main-header .header-image {
+        background-size: 50%;
+    }
+
+    .btn {
+        padding: 8px 70px;
+    }
+
+    #contact .contact-inner {
+        display: block;
+    }
+
+    #contact .contact-inner .contact-date,
+    #contact .contact-inner form {
+        height: auto;
+    }
+
+    #contact .contact-inner form {
+        margin: 10px;
+    }
+
+    .slider .single-slide .slide-caption {
+        margin: 0 auto;
+    }
+
+    bx-viewport {
+        height: auto;
+    }
+
+    #contact .contact-inner .contact-date #map {
+        height: 60vh;
+    }
+}
+
+
+/*EXTRA SMALL SCREENS*/
+
+@media all and (max-width: 520px) {
+    section {
+        padding: 50px 10px;
+    }
+
+    .header-text h2 {
+        font-size: 40px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+    }
+
+    #about .about-inner img {
+        width: 80%;
+    }
+
+    #contact .contact-inner .contact-date #map {
+        height: 40vh;
+    }
+}
