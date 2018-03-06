@@ -2,6 +2,7 @@ $(document).ready(function () {
     addScrolledClass();
     addSlider();
     smoothScroll();
+    smoothDropDown();
 });
 
 $(window).scroll(function () {
@@ -36,6 +37,18 @@ function smoothScroll() {
 };
 
 
+//Responsive menu smooth drop down
+function smoothDropDown() {
+    $(".container").click(function () {
+        $(".drop-down").slideDown(function () {
+            $(this).css('display', '');
+        });
+    });
+};
+
+
+
+
 //hamburger icon animation
 function myFunction(x) {
     x.classList.toggle("change");
@@ -53,7 +66,6 @@ function addScrolledClass() {
 }
 
 //slider function
-
 function addSlider() {
     $('.slider').bxSlider();
 }

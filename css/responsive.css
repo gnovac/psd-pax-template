@@ -40,6 +40,11 @@
         padding: 15px 20px 13px 20px;
     }
 
+    #navbar {
+        background-color: #fff;
+        opacity: 0.9;
+    }
+
 
     .feature-boxes {
         display: block;
@@ -88,6 +93,12 @@
         padding: 8px 70px;
     }
 
+    .btn-play {
+        padding: 8px 50px;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
     #contact .contact-inner {
         display: block;
     }
@@ -128,6 +139,12 @@
 
     .header-text p {
         font-size: 20px;
+    }
+    
+    .btn-play {
+        padding: 2px 30px;
+        line-height: 24px;
+        font-size: 12px;
     }
 
     #about .about-inner img {
