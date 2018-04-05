@@ -15,7 +15,7 @@ function smoothScroll() {
     // smooth scrolling
     scrollLink.click(function (e) {
         e.preventDefault();
-        $('body,html').animate({
+        $('body,html').stop().animate({
             scrollTop: $(this.hash).offset().top
         }, 1000);
     });
